@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="reddish">#FFBF00</color>
+    <color name="primary_text_color">#CD0029</color>
+    <color name="background_of_app">#25A9E4</color>
+    <color name="secondary_text_color">#020DE4</color>
+    <color name="pinkish">#EF00FF</color>
+</resources>

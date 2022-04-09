@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_of_app"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/gradiant_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradiant"
+        android:padding="@dimen/small_padding"
+        android:text="@string/gradiant_button"
+        android:textColor="@color/secondary_text_color"
+        android:textSize="@dimen/large_text_size"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/corner_curve_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:background="@drawable/curve_button_shape"
+        android:padding="@dimen/small_padding"
+        android:text="@string/curve_button"
+        android:textColor="@color/secondary_text_color"
+        android:textSize="@dimen/large_text_size"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gradiant_button" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/corner_custom_curve_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:background="@drawable/custom_curve_button"
+        android:padding="@dimen/small_padding"
+        android:text="@string/curve_custom_button"
+        android:textColor="@color/secondary_text_color"
+        android:textSize="@dimen/large_text_size"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/corner_curve_button" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/circle_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:background="@drawable/circle_button"
+        android:padding="@dimen/small_padding"
+        android:text="@string/circle_button"
+        android:textColor="@color/secondary_text_color"
+        android:textSize="@dimen/large_text_size"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/corner_custom_curve_button" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sun_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:background="@drawable/border_button"
+        android:padding="@dimen/small_padding"
+        android:text="@string/sun"
+        android:textColor="@color/secondary_text_color"
+        android:textSize="@dimen/large_text_size"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/normal_button" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/dash_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:background="@drawable/dashed_background"
+        android:padding="@dimen/small_padding"
+        android:text="@string/dash_button"
+        android:textColor="@color/secondary_text_color"
+        android:textSize="@dimen/large_text_size"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sun_button" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/icon_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:background="@drawable/custom_curve_button"
+        android:padding="@dimen/small_padding"
+        android:text="@string/simple_number"
+        android:textColor="@color/secondary_text_color"
+        android:textSize="@dimen/large_text_size"
+        android:textStyle="bold"
+        android:drawablePadding="@dimen/large_size"
+        android:drawableStart="@drawable/ic_android_black_24dp"
+        android:drawableEnd="@drawable/ic_baseline_mood_24"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dash_button" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/border_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:background="@drawable/rectangle_border"
+        android:padding="@dimen/small_padding"
+        android:text="@string/simple_number"
+        android:textColor="@color/secondary_text_color"
+        android:textSize="@dimen/large_text_size"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@+id/sun_button"
+        app:layout_constraintTop_toBottomOf="@+id/normal_button" />
+
+
+    <Button
+        android:id="@+id/normal_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/reddish"
+        android:text="Hello World!"
+        android:textColor="@color/primary_text_color"
+        android:textSize="@dimen/large_text_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/reddish"
+        android:text="Hello World!"
+        android:textColor="@color/secondary_text_color"
+        android:textSize="@dimen/large_text_size"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gradiant_button">Gradiant button</string>
+    <string name="curve_button">Curve button</string>
+    <string name="curve_custom_button">Curve custom button</string>
+    <string name="circle_button">10</string>
+    <string name="sun">Sun</string>
+    <string name="simple_number">20</string>
+    <string name="dash_button">Dash button</string>
+</resources>
